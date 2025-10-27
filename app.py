@@ -3,21 +3,12 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from utils.analyzer import analyze_feedback, analyze_dataframe
 
-# --------------------------
-# Streamlit Page Configuration
-# --------------------------
 st.set_page_config(page_title="Customer Feedback Analyzer", layout="wide")
 st.title("🧠 Customer Feedback Analyzer")
 st.write("Analyze customer feedback sentiment instantly — no API required!")
 
-# --------------------------
-# Input Selection
-# --------------------------
-option = st.radio("Choose Input Type:", ["Single Feedback", "Upload CSV"])
+option = st.radio("Choose Input Type:", ["Single Feedback", "Upload CSV"], key="input_type_radio")
 
-# --------------------------
-# Single Feedback Analysis
-# --------------------------
 if option == "Single Feedback":
     user_input = st.text_area("Enter customer feedback:")
     if st.button("Analyze"):
@@ -27,10 +18,6 @@ if option == "Single Feedback":
             st.write(f"Sentiment Score: `{result['score']}`")
         else:
             st.warning("Please enter some feedback text.")
-
-# --------------------------
-# CSV Feedback Analysis
-# --------------------------
 else:
     uploaded_file = st.file_uploader("Upload a CSV file", type=["csv"])
     if uploaded_file:
@@ -45,14 +32,10 @@ else:
             st.write("### 🧾 Analysis Results")
             st.dataframe(results_df)
 
-            # --------------------------
-            # Smaller, Clean Sentiment Distribution
-            # --------------------------
             st.write("### 📊 Sentiment Distribution")
             fig, ax = plt.subplots(figsize=(6, 3))
             counts = results_df["sentiment"].value_counts()
 
-            # Colors for sentiments
             color_map = {
                 "Positive 😀": "#2ecc71",
                 "Negative 😞": "#e74c3c",
