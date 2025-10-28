@@ -9,3 +9,14 @@ C007,Camera,この製品はまあまあですが、価格が高すぎます。,
 C008,Refrigerator,الخدمة كانت سيئة للغاية,
 C009,Mouse,Ich liebe dieses Produkt,
 C010,Tablet,产品不错，但送货有点慢。,
+CustomerID,Product,Feedback
+C001,Headphones,This product is really amazing!
+C002,Mobile,यह मोबाइल बहुत बढ़िया है।
+C003,Laptop,Service was slow and unhelpful.
+C004,TV,डिलीवरी में बहुत देरी हुई।
+C005,Smartwatch,El diseño es muy elegante pero la batería dura poco.
+C006,Speaker,Le son est fantastique, j'adore !
+C007,Camera,この製品はまあまあですが、価格が高すぎます。
+C008,Refrigerator,الخدمة كانت ممتازة والجودة رائعة.
+C009,Mouse,Ich finde das Produkt sehr nützlich.
+C010,Tablet,产品不错，但送货有点慢。
