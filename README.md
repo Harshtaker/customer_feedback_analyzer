@@ -47,12 +47,9 @@ python -m venv .venv
 3️⃣ Activate the environment
 
 On Windows:
-
 .venv\Scripts\activate
 
-
 On Mac/Linux:
-
 source .venv/bin/activate
 
 4️⃣ Install dependencies
@@ -60,55 +57,46 @@ pip install -r requirements.txt
 
 
 If any package is missing later (like deep_translator or nltk):
-
 pip install deep_translator nltk streamlit pandas matplotlib
 
 🧠 Run the Application
 
 After setup, run:
-
 streamlit run app.py
-
-
 Then open the link shown in the terminal (usually http://localhost:8501
 ).
 
 📊 Example Usage
-
 Upload data/sample_feedback.csv or your own dataset.
 
 The app:
-
 Detects feedback language
-
 Translates to English if needed
-
 Analyzes sentiment (positive / negative / neutral)
-
 Displays visual summaries
 
 🧠 Technologies Used
-Category	Tools/Packages
-Frontend	Streamlit
-NLP	NLTK, Deep Translator
-Data	Pandas, Matplotlib
-Language	Python 3.12+
+| Category | Tools/Packages        |
+| -------- | --------------------- |
+| Frontend | Streamlit             |
+| NLP      | NLTK, Deep Translator |
+| Data     | Pandas, Matplotlib    |
+| Language | Python 3.12+          |
+
 🧾 Sample Dataset Format
-Feedback ID	Feedback Text
-1	The product quality is amazing!
-2	No me gustó el servicio.
-3	Livraison très rapide, merci !
+| Feedback ID | Feedback Text                   |
+| ----------- | ------------------------------- |
+| 1           | The product quality is amazing! |
+| 2           | No me gustó el servicio.        |
+| 3           | Livraison très rapide, merci !  |
+
 🧪 Future Enhancements
 
 ✅ Integrate automatic language detection
-
 ✅ Add aspect-based sentiment analysis
-
 ✅ Include word clouds and topic modeling
-
 ✅ Deploy using Streamlit Cloud or Render
 
 👨‍💻 Author
-
 Harsh Shukla
 📧 harshshukla0303@gmail.com
