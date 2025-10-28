@@ -1,11 +1,11 @@
-CustomerID,Product,Feedback
-C001,Headphones,This product is really amazing and worth the price!
-C002,Mobile,यह प्रोडक्ट बहुत अच्छा है और क्वालिटी भी शानदार है।
-C003,Laptop,Service thodi slow thi, but staff helpful tha.
-C004,TV,डिलीवरी बहुत खराब थी, मुझे बिल्कुल पसंद नहीं आया।
-C005,Smartwatch,El servicio fue excelente y rápido.
-C006,Speaker,Le produit est de mauvaise qualité.
-C007,Camera,この製品はまあまあですが、価格が高すぎます。
-C008,Refrigerator,الخدمة كانت سيئة للغاية.
-C009,Mouse,Ich liebe dieses Produkt, es funktioniert perfekt!
-C010,Tablet,产品不错，但送货有点慢。
+CustomerID,Product,Feedback,
+C001,Headphones,This product is really amazing and worth the price!,
+C002,Mobile,यह प्रोडक्ट बहुत अच्छा है और क्वालिटी भी शानदार है।,
+C003,Laptop,Service thodi slow thi,
+C004,TV,डिलीवरी बहुत खराब थी,
+C005,Smartwatch,El servicio fue excelente y rápido.,
+C006,Speaker,Le produit est de mauvaise qualité.,
+C007,Camera,この製品はまあまあですが、価格が高すぎます。,
+C008,Refrigerator,الخدمة كانت سيئة للغاية,
+C009,Mouse,Ich liebe dieses Produkt,
+C010,Tablet,产品不错，但送货有点慢。,
